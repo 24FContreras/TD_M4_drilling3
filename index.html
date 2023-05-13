@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Módulo 4, sesión 3: SIMPLYMAIL</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/1872a23027.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <form id="formulario">
+        <div class="input-field">
+          <label for="destinatario">Para:</label>
+          <input
+            type="email"
+            id="destinatario"
+            name="destinatario"
+            placeholder="email destinatario"
+          />
+        </div>
+        <div class="input-field">
+          <input type="text" id="titulo" name="titulo" placeholder="Título" />
+        </div>
+        <div class="input-field">
+          <input
+            type="text"
+            id="mensaje"
+            name="mensaje"
+            placeholder="Mensaje"
+          />
+        </div>
+        <div class="input-field">
+          <label for="remitente">De:</label>
+          <input
+            type="email"
+            id="remitente"
+            name="remitente"
+            placeholder="email remitente"
+          />
+        </div>
+        <p class="cc">CC:</p>
+        <section class="carbon-copies">
+          <input
+            type="email"
+            id="cc1"
+            name="cc1"
+            placeholder="emails"
+            class="copies"
+          />
+          <input
+            type="email"
+            id="cc2"
+            name="cc2"
+            placeholder="emails"
+            class="copies"
+          />
+          <input
+            type="email"
+            id="cc3"
+            name="cc3"
+            placeholder="emails"
+            class="copies"
+          />
+          <input
+            type="email"
+            id="cc4"
+            name="cc4"
+            placeholder="emails"
+            class="copies"
+          />
+          <input
+            type="email"
+            id="cc5"
+            name="cc5"
+            placeholder="emails"
+            class="copies"
+          />
+          <input
+            type="email"
+            id="cc6"
+            name="cc6"
+            placeholder="emails"
+            class="copies"
+          />
+        </section>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <!-- SCRIPTS -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
